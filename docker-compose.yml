@@ -1,0 +1,12 @@
+inventory:
+  build: .
+  command: npm start
+  ports:
+  - "3000:3000"
+  links:
+  - mongodb
+  environment:
+    - NODE_ENV=production
+    - MONGODB_ADDRESS=127.0.0.1
+mongodb:
+  image: mongo

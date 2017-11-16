@@ -8,11 +8,15 @@
     "start": "nodemon server.js"
   },
   "keywords": [
-    "RESTful",
-    "API",
-    "Tutorial"
+    "Todo",
+    "API"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/s-talha/Todo-API.git"
+  },
   "author": "Sana Talha",
+  "license": "UNLICENSED",
   "devDependencies": {
     "nodemon": "^1.11.0"
   },
